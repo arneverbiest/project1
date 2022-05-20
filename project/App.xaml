@@ -4,14 +4,6 @@
              xmlns:local="clr-namespace:project"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-
-        <ResourceDictionary>
-
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="c:\users\arne_\source\repos\project\project\nieuwknop.xaml"/>
-            </ResourceDictionary.MergedDictionaries>
-
-                </ResourceDictionary>
-
+         
     </Application.Resources>
 </Application>
