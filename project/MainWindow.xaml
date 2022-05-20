@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:project"
+        xmlns:local="clr-namespace:project" xmlns:IconPacks="clr-namespace:MahApps.Metro.IconPacks;assembly=MahApps.Metro.IconPacks.Material"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="380"
         AllowsTransparency="True" Background="Transparent"
@@ -34,11 +34,58 @@
                        HorizontalAlignment="Center"/>
 
         </StackPanel>
+
         <StackPanel Grid.Row="1">
+        
+        <StackPanel Orientation="Horizontal">
             <TextBox FontFamily="helvatica"
-                     Focusable=","/> 
-           
+                     FontWeight="Light"
+                     Text="Username"
+                     FontSize="20"
+                     Foreground="White"
+                     Background="Transparent"
+                     BorderThickness="0"
+                     Width="235"
+                     HorizontalAlignment="Center"
+                     Opacity="0.5"
+                     Height="25"
+                     Margin="63,0,0,0"/>
+            <IconPacks:PackIconMaterial Kind="Account" 
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center"
+                                        Foreground="White"/>
         </StackPanel>
+        <Border Width="250"
+                Height="2"
+                Background="White"
+                Opacity="0.5"/>
+
+
+            <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                <PasswordBox FontFamily="helvatica"
+                     FontWeight="Light"
+                     Password="Password"
+                     FontSize="20"
+                     Foreground="White"
+                     Background="Transparent"
+                     BorderThickness="0"
+                     Width="235"
+                     HorizontalAlignment="Center"
+                     Opacity="0.5"
+                     Height="25"
+                     Margin="63,0,0,0"/>
+                <IconPacks:PackIconMaterial Kind="FormTextboxPassword" 
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center"
+                                        Foreground="White"/>
+            </StackPanel>
+            <Border Width="250"
+                Height="2"
+                Background="White"
+                Opacity="0.5"/>
+
+        </StackPanel>
+
         
         
         
