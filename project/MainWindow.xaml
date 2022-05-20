@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="380"
         AllowsTransparency="True" Background="Transparent"
-        WindowStyle="none" ResizeMode="NoResize">
+        WindowStyle="none" ResizeMode="NoResize"
+        MouseDown="Window_MouseDown">
         
     <Grid>
         <Grid.RowDefinitions>
@@ -25,13 +26,10 @@
         </Border>
 
         <StackPanel VerticalAlignment="Center">
-            <Image/>
-            <TextBlock Text="modern design"
-                       FontWeight="light"
-                       FontFamily="helvetica"
-                       FontSize="22"
-                       Foreground="White"
-                       HorizontalAlignment="Center"/>
+            <Image Source="/afbeeldingen/logo vagevuur zwart.png" Height="150" />
+
+            
+
 
         </StackPanel>
 
@@ -83,6 +81,10 @@
                 Height="2"
                 Background="White"
                 Opacity="0.5"/>
+            
+            
+            <Button Margin="0,50,0,0" Width="100" Height="40" Content="LOGIN"/>
+
 
         </StackPanel>
 
