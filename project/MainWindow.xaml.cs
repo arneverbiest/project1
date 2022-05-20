@@ -24,5 +24,18 @@ namespace project
         {
             InitializeComponent();
         }
+
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                DragMove();
+            }
+        }
+
+        private void Window_MouseDown_1(object sender, MouseButtonEventArgs e)
+        {
+
+        }
     }
 }
